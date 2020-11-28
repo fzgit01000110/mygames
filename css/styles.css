@@ -1,0 +1,178 @@
+/*=========================Tag Selector======================*/
+
+body{
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Gugi', cursive;
+}
+
+hr{
+  border-style: dashed;
+  border-color: #f0a500;
+  border-width: 10px;
+  border-bottom: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*=========================Class Selector - Top Part======================*/
+.top-container{
+  background-color: #cf7500;
+  text-align: center;
+  height: 250px;
+}
+
+.top-left{
+
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  left: 10%;
+}
+
+.top-right{
+
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  right: 10%;
+}
+
+.page-title{
+  margin-top: 85px;
+  color: #1a1c20;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.gamepad-image{
+  width: 60%;
+}
+
+/*=========================Class Selector - Tech Part======================*/
+.tech-container{
+  background-color: #f0a500;
+  text-align: center;
+}
+
+.tech-logos-box{
+  background-color: #1a1c20;
+  height: 100px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techlogo{
+  margin: auto 5px auto 5px;
+  width: 15%;
+}
+
+/*=========================Class Selector - Content Part======================*/
+.content-div{
+  background-color: #1a1c20;
+  text-align: center;
+  height: 800px;
+}
+
+.game-title{
+  font-family: 'Bebas Neue', cursive;
+  color: #f0a500;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.game-icon-image{
+  height: 650px;
+  width: 50%;
+  position: absolute;
+}
+
+.game-screenshots{
+  height: 650px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+
+.game-image{
+  width: 50%;
+  margin-top: 125px;
+}
+
+.screenshot-image-box {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.screenshot-image{
+  width: 80%;
+  margin-top: 15%;
+  border-radius: 5px;
+}
+
+.screenshot-image:hover{
+  width: 100%;
+}
+
+/*Download-Part*/
+
+.download-container{
+  background-color: #f0a500;
+  text-align: center;
+}
+
+.download-button-box{
+  background-color: #1a1c20;
+  height: 100px;
+  width: 300px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-text{
+  color: #f0a500;
+}
+.download-text:hover{
+  color: #f4f4f4;
+}
+
+
+/*Bottom-Part*/
+
+.bottom-container{
+  background-color: #cf7500;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-links{
+  padding: 50px;
+  font-family: 'Bebas Neue', cursive;
+  color: #1a1c20;
+  font-size: 1.5rem;
+}
+.footer-links:hover{
+  color: #f4f4f4;
+}
+
+.copyrights{
+  font-family: serif;
+  margin-top: 50px;
+  color: #f4f4f4;
+}
